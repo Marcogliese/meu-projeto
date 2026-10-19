@@ -1,4 +1,3 @@
-cat > .github/workflows/terraform.yml <<'EOF'
 name: Terraform CI/CD
 
 on:
@@ -38,4 +37,3 @@ jobs:
         run: |
           sleep 5
           docker ps
-EOF
