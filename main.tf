@@ -43,4 +43,3 @@ resource "docker_container" "db" {
     container_path = "/var/lib/postgresql/data"
   }
 }
-variable "teste"   {  }
